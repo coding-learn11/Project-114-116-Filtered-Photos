@@ -1,0 +1,26 @@
+h3 {
+    font-size: 25px !important;
+    background-color: pink !important;
+    border-color: pink !important;
+}
+
+#snapshot {
+background-color: rgb(242, 232, 222);
+font-size: 18px;
+border-radius: 10px;
+border-color: rgb(242, 232, 222);
+}
+#snapshot:hover {
+    background-color: lightpink;
+}
+
+canvas {
+    animation-name: color-changing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-changing {
+    from {box-shadow: 1px 1px 40px darkred;}
+    to {box-shadow: 1px 1px 40px pink;}
+}
