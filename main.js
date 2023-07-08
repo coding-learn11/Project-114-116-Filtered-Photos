@@ -5,7 +5,6 @@ function preload() {
 function setup() {
     canvas = createCanvas(300, 300);
     canvas.center();
-    background(100, 100, 100)
     video = createCapture(VIDEO);
     video.size(300, 300);
     video.hide();
